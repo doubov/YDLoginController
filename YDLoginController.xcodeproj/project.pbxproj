@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D88366E31F0EAA0C008891D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88366E21F0EAA0C008891D0 /* AppDelegate.swift */; };
+		D88366E51F0EAA0C008891D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88366E41F0EAA0C008891D0 /* ViewController.swift */; };
+		D88366E81F0EAA0C008891D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88366E61F0EAA0C008891D0 /* Main.storyboard */; };
+		D88366EA1F0EAA0C008891D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88366E91F0EAA0C008891D0 /* Assets.xcassets */; };
+		D88366ED1F0EAA0C008891D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88366EB1F0EAA0C008891D0 /* LaunchScreen.storyboard */; };
+		D88366F81F0EAB59008891D0 /* YDLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88366F71F0EAB59008891D0 /* YDLoginController.swift */; };
+		D88367031F0EB4F9008891D0 /* backgroundPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D88366FC1F0EB4F9008891D0 /* backgroundPlaceholder.png */; };
+		D88367041F0EB4F9008891D0 /* fingerprint-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88366FD1F0EB4F9008891D0 /* fingerprint-icon@2x.png */; };
+		D88367051F0EB4F9008891D0 /* fingerprint-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88366FE1F0EB4F9008891D0 /* fingerprint-icon@3x.png */; };
+		D88367061F0EB4F9008891D0 /* logoPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88366FF1F0EB4F9008891D0 /* logoPlaceholder@2x.png */; };
+		D88367071F0EB4F9008891D0 /* logoPlaceholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88367001F0EB4F9008891D0 /* logoPlaceholder@3x.png */; };
+		D88367081F0EB4F9008891D0 /* passwordIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D88367011F0EB4F9008891D0 /* passwordIcon.png */; };
+		D88367091F0EB4F9008891D0 /* usernameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D88367021F0EB4F9008891D0 /* usernameIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D88366DF1F0EAA0C008891D0 /* YDLoginController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDLoginController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88366E21F0EAA0C008891D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D88366E41F0EAA0C008891D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D88366E71F0EAA0C008891D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D88366E91F0EAA0C008891D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88366EC1F0EAA0C008891D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D88366EE1F0EAA0C008891D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88366F71F0EAB59008891D0 /* YDLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YDLoginController.swift; sourceTree = "<group>"; };
+		D88366FC1F0EB4F9008891D0 /* backgroundPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundPlaceholder.png; sourceTree = "<group>"; };
+		D88366FD1F0EB4F9008891D0 /* fingerprint-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint-icon@2x.png"; sourceTree = "<group>"; };
+		D88366FE1F0EB4F9008891D0 /* fingerprint-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint-icon@3x.png"; sourceTree = "<group>"; };
+		D88366FF1F0EB4F9008891D0 /* logoPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoPlaceholder@2x.png"; sourceTree = "<group>"; };
+		D88367001F0EB4F9008891D0 /* logoPlaceholder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoPlaceholder@3x.png"; sourceTree = "<group>"; };
+		D88367011F0EB4F9008891D0 /* passwordIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passwordIcon.png; sourceTree = "<group>"; };
+		D88367021F0EB4F9008891D0 /* usernameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usernameIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88366DC1F0EAA0C008891D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D88366D61F0EAA0C008891D0 = {
+			isa = PBXGroup;
+			children = (
+				D88366FB1F0EB4F9008891D0 /* Resource */,
+				D88366F61F0EAB59008891D0 /* Source */,
+				D88366E11F0EAA0C008891D0 /* YDLoginController */,
+				D88366E01F0EAA0C008891D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88366E01F0EAA0C008891D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88366DF1F0EAA0C008891D0 /* YDLoginController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88366E11F0EAA0C008891D0 /* YDLoginController */ = {
+			isa = PBXGroup;
+			children = (
+				D88366E21F0EAA0C008891D0 /* AppDelegate.swift */,
+				D88366E41F0EAA0C008891D0 /* ViewController.swift */,
+				D88366E61F0EAA0C008891D0 /* Main.storyboard */,
+				D88366E91F0EAA0C008891D0 /* Assets.xcassets */,
+				D88366EB1F0EAA0C008891D0 /* LaunchScreen.storyboard */,
+				D88366EE1F0EAA0C008891D0 /* Info.plist */,
+			);
+			path = YDLoginController;
+			sourceTree = "<group>";
+		};
+		D88366F61F0EAB59008891D0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D88366F71F0EAB59008891D0 /* YDLoginController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D88366FB1F0EB4F9008891D0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D88366FC1F0EB4F9008891D0 /* backgroundPlaceholder.png */,
+				D88366FD1F0EB4F9008891D0 /* fingerprint-icon@2x.png */,
+				D88366FE1F0EB4F9008891D0 /* fingerprint-icon@3x.png */,
+				D88366FF1F0EB4F9008891D0 /* logoPlaceholder@2x.png */,
+				D88367001F0EB4F9008891D0 /* logoPlaceholder@3x.png */,
+				D88367011F0EB4F9008891D0 /* passwordIcon.png */,
+				D88367021F0EB4F9008891D0 /* usernameIcon.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88366DE1F0EAA0C008891D0 /* YDLoginController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88366F11F0EAA0C008891D0 /* Build configuration list for PBXNativeTarget "YDLoginController" */;
+			buildPhases = (
+				D88366DB1F0EAA0C008891D0 /* Sources */,
+				D88366DC1F0EAA0C008891D0 /* Frameworks */,
+				D88366DD1F0EAA0C008891D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDLoginController;
+			productName = YDLoginController;
+			productReference = D88366DF1F0EAA0C008891D0 /* YDLoginController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88366D71F0EAA0C008891D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yuri Doubov";
+				TargetAttributes = {
+					D88366DE1F0EAA0C008891D0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LRLAXK95SP;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D88366DA1F0EAA0C008891D0 /* Build configuration list for PBXProject "YDLoginController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88366D61F0EAA0C008891D0;
+			productRefGroup = D88366E01F0EAA0C008891D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88366DE1F0EAA0C008891D0 /* YDLoginController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88366DD1F0EAA0C008891D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88367091F0EB4F9008891D0 /* usernameIcon.png in Resources */,
+				D88367071F0EB4F9008891D0 /* logoPlaceholder@3x.png in Resources */,
+				D88367081F0EB4F9008891D0 /* passwordIcon.png in Resources */,
+				D88367061F0EB4F9008891D0 /* logoPlaceholder@2x.png in Resources */,
+				D88366ED1F0EAA0C008891D0 /* LaunchScreen.storyboard in Resources */,
+				D88367051F0EB4F9008891D0 /* fingerprint-icon@3x.png in Resources */,
+				D88366EA1F0EAA0C008891D0 /* Assets.xcassets in Resources */,
+				D88366E81F0EAA0C008891D0 /* Main.storyboard in Resources */,
+				D88367031F0EB4F9008891D0 /* backgroundPlaceholder.png in Resources */,
+				D88367041F0EB4F9008891D0 /* fingerprint-icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88366DB1F0EAA0C008891D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88366F81F0EAB59008891D0 /* YDLoginController.swift in Sources */,
+				D88366E51F0EAA0C008891D0 /* ViewController.swift in Sources */,
+				D88366E31F0EAA0C008891D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D88366E61F0EAA0C008891D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88366E71F0EAA0C008891D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D88366EB1F0EAA0C008891D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88366EC1F0EAA0C008891D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D88366EF1F0EAA0C008891D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D88366F01F0EAA0C008891D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88366F21F0EAA0C008891D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YDLoginController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubov.loginscreen.YDLoginController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D88366F31F0EAA0C008891D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YDLoginController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubov.loginscreen.YDLoginController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88366DA1F0EAA0C008891D0 /* Build configuration list for PBXProject "YDLoginController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88366EF1F0EAA0C008891D0 /* Debug */,
+				D88366F01F0EAA0C008891D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88366F11F0EAA0C008891D0 /* Build configuration list for PBXNativeTarget "YDLoginController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88366F21F0EAA0C008891D0 /* Debug */,
+				D88366F31F0EAA0C008891D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D88366D71F0EAA0C008891D0 /* Project object */;
+}
